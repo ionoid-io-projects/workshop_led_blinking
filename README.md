@@ -14,8 +14,13 @@ You can achive it with connecting it to your pc trought the Micro USB Port of th
 
 ## 2- Connect to your raspberry pi
 Using putty if you're on windows, Ssh if you're on a linux based os
+Follow the following instruction if you dont know how to connect to raspberry pi
+[Connect to raspberry pi using Putty](https://github.com/ionoid-io-projects/workshop/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md#5-first-boot)
+
 ## 3- Download led binary file
-If you're using Raspberry 0
+
+Assuming you're connected with... copy and past this command
+If you're using Raspberry zero
 ```
 curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_led_blinking/master/bin/arm6/led
 ```
@@ -24,13 +29,15 @@ If you're using Raspberry 3 b
 ```
 curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_led_blinking/master/bin/arm7/led
 ```
-
-## 4- execute binary to make led blinking
+## make it executable
 ```
-sudo ./led
+chmod +x led
 ```
 
-## 5- Do you see the led Blink ?
+## 4- execute binary to make led blink
+```
+./led
+```
 
 # Ressources
 
