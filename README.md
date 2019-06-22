@@ -6,9 +6,20 @@ Material for raspberry pi workshop
 
 # Code
 
+## 1- Power your raspberry
+## 2- Connect to your raspberry pi
+## 3- Download led binary
+```
+
+```
+
 Copy and execute inside your raspberry the file "bin/arm6/led" if you're using raspberryi pi zero
 
 And for raspberryi pi 3 "bin/arm7/led"
+
+
+
+
 
 # Ressources
 
