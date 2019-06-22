@@ -39,6 +39,9 @@ chmod +x led
 ./led
 ```
 
+## How to stop the program
+To quit or stop the program click on **Ctrl+C**
+
 # Ressources
 
 [https://projects.raspberrypi.org/en/projects/physical-computing/4](https://projects.raspberrypi.org/en/projects/physical-computing/4)
