@@ -2,6 +2,9 @@
 Material for raspberry pi workshop
 
 # Wiring
+
+https://www.circuito.io/app?components=9443,11372,200000
+
 ![Lighting an LED](doc/img/led-3v3.png)
 
 # Code
@@ -44,4 +47,4 @@ To quit or stop the program click on **Ctrl+C**
 
 # Ressources
 
-[https://projects.raspberrypi.org/en/projects/physical-computing/4](https://projects.raspberrypi.org/en/projects/physical-computing/4)
+
