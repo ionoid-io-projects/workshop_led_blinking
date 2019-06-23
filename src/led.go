@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"os"
-  	"os/signal"
-  	"syscall"
+	"os/signal"
 	"strconv"
+	"syscall"
+	"time"
 
 	"github.com/stianeikeland/go-rpio"
 )
@@ -38,14 +38,15 @@ func main() {
 	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
 	go func() {
 		<-c
-    	pin.Low()
-    	os.Exit(0)
-    }()
+		pin.Low()
+		os.Exit(0)
+	}()
 
 	duration := time.Duration(interval) * time.Second
 
 	for {
 		pin.Toggle()
+		fmt.Println("One more blink...")
 		time.Sleep(duration)
 	}
 }
