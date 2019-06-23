@@ -1,4 +1,4 @@
-name: led-blink
+name: led-blink-env
 version: 1.0
 apps:
     led-blink:
