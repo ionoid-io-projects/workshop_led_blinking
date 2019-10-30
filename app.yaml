@@ -1,0 +1,8 @@
+name: led-blink-env
+version: 1.0
+apps:
+    led-blink:
+        environment:
+            RPIO_PIN:    18 
+            BLINK_INTERVAL:    1
+        command:    /bin/led
