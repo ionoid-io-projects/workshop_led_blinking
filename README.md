@@ -5,7 +5,7 @@ Material for raspberry pi workshop
 
 https://www.circuito.io/app?components=9443,11372,200000
 
-![Lighting an LED](doc/img/led-3v3.png)
+![Lighting an LED](doc/img/led-3v3.jpg)
 
 # Code
 

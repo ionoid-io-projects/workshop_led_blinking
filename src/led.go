@@ -21,12 +21,12 @@ func main() {
 	defer rpio.Close()
 
 	pin_number, err := strconv.Atoi(os.Getenv("RPIO_PIN"))
-	if err == nil {
+	if err != nil {
 		pin_number = 18
 	}
 
 	interval, err := strconv.Atoi(os.Getenv("BLINK_INTERVAL"))
-	if err == nil {
+	if err != nil {
 		interval = 1
 	}
 
