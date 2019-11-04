@@ -1,11 +1,16 @@
 # workshop_led_blinking
-Material for raspberry pi workshop
+Blinking an LED is one of the first projects a beginner will do to learn electronics, it's no different from learning Raspberry Pi, to do so we will learn in this workshop how to use the Raspberry Pi GPIO pin to blink an LED.
 
 # Wiring
 
-https://www.circuito.io/app?components=9443,11372,200000
-
 ![Lighting an LED](doc/img/led-3v3.jpg)
+
+|LED                  |  raspberry pi  |
+|---------------------|----------------|
+| Ground 		      | GND            |
+| Vcc / + 		      | GPIO18         |
+
+![wiring](doc/img/gpio.png)
 
 # Code
 
